@@ -10,10 +10,10 @@ extern "C" {
 
 //global variables
 String BSSID = "asdf";
-String Networks[][2] = {
-  {"M3K_Staff","m3d3ooot1nl3y"},
-  {"Pcola_Heazy","welcomehome"}
+String Networks[][1] = {
+  {"NETWORK_SSID","PSK"}
 };
+
 
 DisplayController *displayController;
 WifiApServer *server;
